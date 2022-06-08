@@ -1,0 +1,165 @@
+*{
+	font-family: sans-serif ;
+}
+h1 {
+	font-size: 80px;
+}
+#title{
+		width:272px;
+}
+.main {
+		margin:auto;
+		width:60%;
+		padding: 8px 0px 0px;
+}
+.center{
+		text-align:center;
+}
+input[type=search] {
+  				width: 590px;
+				margin:20px 0 18px 10px;
+  				border: 0.1px solid #e0e0e0;
+  				border-radius: 43px;
+  				font-size: 16px;
+ 				background-color: white;
+  				background-image: url(search.jpg);
+				background-size: 28px 28px;
+				background-border:none,none;
+ 	 			background-position: 2% center ; 
+  				background-repeat: no-repeat;
+  				padding: 15px 10px 10px 40px;
+}
+input:hover{
+			outline: none;
+  			box-shadow: 0px 0px 5px #e0e0e0;
+}
+input:focus{
+			outline: none;
+  			border: 0.1px solid #e0e0e0;
+}
+.2button{
+		padding:100px 10px 10px 2px;
+}
+.option{
+		margin:27px 30px 30px 30px;
+		font-size:13px;
+}
+button{ 
+		background-color: #fafafa;
+		border: 1px solid #fafafa;
+		border-radius: 3px;
+ 	 	color: black;
+		padding: 10px 18px 10px 18px ;
+  		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		font-size: 14px;
+		margin-right:8px;
+}
+button:hover {
+			outline: none;
+  			border: 1px solid #d0d0d0;
+}
+.nav{
+		text-align:center;
+		float:right;
+		padding:6px 10px ;
+		font-size:13px;
+}
+.nav a {
+	margin-left:15px;
+}
+.option a{
+		 margin-left:6px;
+}
+a:link {
+ 	 	text-decoration: none;
+}
+a:hover {
+  		text-decoration: underline;
+}
+.round{
+		width:32px;
+		border-radius: 50%;
+		vertical-align:middle;
+}
+.art a , .divleft a , .divrit a{
+						padding:10px;
+						font-size:15px;
+						color:grey;
+}
+.space{
+		padding:15px;
+		font-size:16px;
+}
+.art{
+		background-color:#f2f2f2;
+		width: 100%;
+		border-bottom: 1px solid #dadce0;
+            color: #70757a;
+		outline:black;		
+}
+.footer1{
+  		position:fixed;
+		bottom:0;
+  		width: 100%;
+  		border: none;
+		background-color:#f2f2f2;		
+}
+.divleft {
+    		float: left;	
+}
+.divrit {
+    		float:right;
+}
+.divrit a ,.art a, .divleft a {
+						color:grey;
+}
+.tooltip {
+  		position: relative;
+  		display: inline-block;
+}
+.tooltip .tooltiptext {
+ 				 	visibility: hidden;
+  					width: 120px;
+  					background-color: black;
+  					color: #fff;
+  					text-align: center;
+ 	 				border-radius: 6px;
+  					padding: 5px 0;
+  					position: absolute;
+  					z-index: 1;
+  					top: 150%;
+  					left: 50%;
+  					margin-left: -60px;
+					font-size:12px;
+}
+.tooltip .tooltiptext::after {
+  						content: "";
+  						position: absolute;
+  						bottom: 100%;
+  						left: 50%;
+  						margin-left: -5px;
+  						border-width: 5px;
+  						border-style: solid;
+  						border-color: transparent transparent black transparent;
+}
+.tooltip:hover .tooltiptext {
+  						visibility: visible;
+}
+.voicebutton{
+    			width:66px;
+			position:relative;
+			top:15px;
+			right:70px;
+			border-radius:50%;
+}
+.search-bar{
+      margin:4px 0 0 30px;
+	padding:3px 0px 10px 30px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
